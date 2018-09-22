@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Translator" max_length="40" name="x_274357_sponsored_translator" type="collection">
+        <element choice="3" default="spanish" label="Language" mandatory="true" max_length="40" name="language" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Spanish" sequence="0" value="spanish"/>
+                <element inactive_on_update="false" label="Portuguese" sequence="1" value="portuguese"/>
+                <element inactive_on_update="false" label="French" sequence="2" value="french"/>
+                <element inactive_on_update="false" label="English" sequence="3" value="english"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Open tasks" max_length="40" name="open_tasks" type="integer"/>
+        <element display="true" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

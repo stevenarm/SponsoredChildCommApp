@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_letter_text" label="Letter text" language="en" table="x_274357_sponsored_letter">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_letter_text</element>
+            <help/>
+            <hint/>
+            <label>Letter text</label>
+            <language>en</language>
+            <name>x_274357_sponsored_letter</name>
+            <plural>Letter texts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-10 00:18:42</sys_created_on>
+            <sys_id>6d2eb18cdba46300e6acd426ca9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Letter text</sys_name>
+            <sys_package display_value="Sponsored Child Communication App" source="x_274357_sponsored">d7953f13db102300e6acd426ca96199b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sponsored Child Communication App">d7953f13db102300e6acd426ca96199b</sys_scope>
+            <sys_update_name>sys_documentation_x_274357_sponsored_letter_u_letter_text_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-10 00:18:42</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

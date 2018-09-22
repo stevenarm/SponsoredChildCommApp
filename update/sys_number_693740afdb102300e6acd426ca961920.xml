@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_274357_sponsored_letter">x_274357_sponsored_letter</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>LET</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-08 02:22:05</sys_created_on>
+        <sys_id>693740afdb102300e6acd426ca961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LET</sys_name>
+        <sys_package display_value="Sponsored Child Communication App" source="x_274357_sponsored">d7953f13db102300e6acd426ca96199b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sponsored Child Communication App">d7953f13db102300e6acd426ca96199b</sys_scope>
+        <sys_update_name>sys_number_693740afdb102300e6acd426ca961920</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-08 02:22:05</sys_updated_on>
+    </sys_number>
+</record_update>

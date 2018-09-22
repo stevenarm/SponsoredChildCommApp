@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="language" table="x_274357_sponsored_translator" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spanish</label>
+            <language>en</language>
+            <name>x_274357_sponsored_translator</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-22 06:28:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5f501ccdbf86300e6acd426ca96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-22 06:28:54</sys_updated_on>
+            <value>spanish</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Portuguese</label>
+            <language>en</language>
+            <name>x_274357_sponsored_translator</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-22 06:28:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5f501ccdbf86300e6acd426ca96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-22 06:28:54</sys_updated_on>
+            <value>portuguese</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>French</label>
+            <language>en</language>
+            <name>x_274357_sponsored_translator</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-22 06:28:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75f501ccdbf86300e6acd426ca96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-22 06:28:54</sys_updated_on>
+            <value>french</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>English</label>
+            <language>en</language>
+            <name>x_274357_sponsored_translator</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-22 06:28:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1f501ccdbf86300e6acd426ca961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-22 06:28:54</sys_updated_on>
+            <value>english</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>language</element>
+            <name>x_274357_sponsored_translator</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-22 06:28:54</sys_created_on>
+            <sys_id>fdf501ccdbf86300e6acd426ca96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>language</sys_name>
+            <sys_package display_value="Sponsored Child Communication App" source="x_274357_sponsored">d7953f13db102300e6acd426ca96199b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sponsored Child Communication App">d7953f13db102300e6acd426ca96199b</sys_scope>
+            <sys_update_name>sys_choice_x_274357_sponsored_translator_language</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-22 06:28:54</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

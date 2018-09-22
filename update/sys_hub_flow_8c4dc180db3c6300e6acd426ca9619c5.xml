@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow to assign a translator to a letter</description>
+        <internal_name>assign_translator</internal_name>
+        <label_cache>[{"name":"3884956c-a6f9-41df-a0e7-6481657c2080.Records","label":"1➛Translator Records","reference":"x_274357_sponsored_translator","reference_display":"Translator Records","type":"records","base_type":"records"},{"name":"3884956c-a6f9-41df-a0e7-6481657c2080.Table","label":"1➛Translator Table","reference":"x_274357_sponsored_translator","reference_display":"Translator Table","type":"table_name","base_type":"table_name"},{"name":"3884956c-a6f9-41df-a0e7-6481657c2080.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"Created_1.current.child.language","label":"Trigger➛Letter Record➛Child➛Language","reference":"","reference_display":"Language","type":"choice","base_type":"choice","parent_table_name":"x_274357_sponsored_children","column_name":"language"},{"name":"ba3d75cf-3a61-494d-a0c7-3ff3eba32ae0.item","label":"2➛Translator Record","reference":"x_274357_sponsored_translator","reference_display":"Translator Record","type":"reference","base_type":"reference"},{"name":"cbd8e134-7911-4636-a3cf-9b96de256e2a.Record","label":"2.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"cbd8e134-7911-4636-a3cf-9b96de256e2a.Table","label":"2.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Assign translator</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-22 07:00:45</sys_created_on>
+        <sys_id>8c4dc180db3c6300e6acd426ca9619c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Assign translator</sys_name>
+        <sys_package display_value="Sponsored Child Communication App" source="x_274357_sponsored">d7953f13db102300e6acd426ca96199b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sponsored Child Communication App">d7953f13db102300e6acd426ca96199b</sys_scope>
+        <sys_update_name>sys_hub_flow_8c4dc180db3c6300e6acd426ca9619c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-22 07:35:42</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=8c4dc180db3c6300e6acd426ca9619c5"/>
+</record_update>

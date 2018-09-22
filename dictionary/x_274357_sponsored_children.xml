@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Children" max_length="40" name="x_274357_sponsored_children" type="collection">
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="First name" max_length="40" name="first_name" type="string"/>
+        <element choice="1" label="Language" max_length="40" name="language" type="choice">
+            <choice/>
+        </element>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Sponsor" max_length="32" name="sponsor" reference="x_274357_sponsored_sponsor" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sponsor"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

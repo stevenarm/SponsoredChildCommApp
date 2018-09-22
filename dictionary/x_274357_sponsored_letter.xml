@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Letter" max_length="40" name="x_274357_sponsored_letter" type="collection">
+        <element label="Child" max_length="32" name="child" reference="x_274357_sponsored_children" type="reference"/>
+        <element label="Letter title" max_length="200" name="letter_title" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Translator" max_length="32" name="translator" reference="x_274357_sponsored_translator" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Letter text" mandatory="true" max_length="4000" name="u_letter_text" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Translation" max_length="4000" name="u_translation" type="string"/>
+        <index name="index">
+            <element name="translator"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="child"/>
+        </index>
+    </element>
+</database>

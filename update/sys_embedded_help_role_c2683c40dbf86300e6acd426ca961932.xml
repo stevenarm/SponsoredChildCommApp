@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_274357_sponsored.translation_task_user" name="x_274357_sponsored.translation_task_user">4e683c40dbf86300e6acd426ca96192f</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-22 05:29:41</sys_created_on>
+        <sys_id>c2683c40dbf86300e6acd426ca961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4e683c40dbf86300e6acd426ca96192f</sys_name>
+        <sys_package display_value="Sponsored Child Communication App" source="x_274357_sponsored">d7953f13db102300e6acd426ca96199b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sponsored Child Communication App">d7953f13db102300e6acd426ca96199b</sys_scope>
+        <sys_update_name>sys_embedded_help_role_c2683c40dbf86300e6acd426ca961932</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-22 05:29:41</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
